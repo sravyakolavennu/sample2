@@ -25,5 +25,35 @@
           "institute":"vidya vikas public school",
           "data":["2013-14","88%"]
         }
+      ],
+      "skills":[
+        {
+          "title":"programming languages:",
+          "info":["C","C++","Java","Python","Ruby","R"]
+        },
+        {
+          "title":"Database:",
+          "info":["oracle","mysql","sql"]
+        },
+        {
+          "title":"Operating System:",
+          "info":["windows","MAC","Unix","kaliLinux"]
+        },
+        {
+          "title":"Web Technologies:",
+          "info":["HTML","CSS","XML","JavaScript"]
+        }
+      ],
+      "achievements":[
+        {
+          "achieveData":"got 1st prize in GD"
+        },
+
+        {
+          "achieveData":"got 1st prize in debate"
+        },
+        {
+          "achieveData":"got 1st prize in programming"
+        }
       ]
     }

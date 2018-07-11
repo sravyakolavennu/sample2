@@ -31,6 +31,8 @@ var newFile=loadJSON("data.json");
     console.log(data);
     carrer(data.carrer);
     education(data.education);
+    skills(data.skills);
+    achievements(data.achievements);
   })
 
   var childTwo=document.querySelector(".childTwo");
@@ -65,4 +67,34 @@ var newFile=loadJSON("data.json");
       eduUl.appendChild(eduLi2);
       childTwo.appendChild(eduUl);
     }
+  }
+
+  function skills(skillInfo){
+    var skillsHeading=document.createElement("h2");
+    skillsHeading.textContent="Technical Skills";
+    childTwo.appendChild(skillsHeading);
+    var hr=document.createElement("hr");
+    childTwo.appendChild(hr);
+    var skillstable=document.createElement("table");
+    skillstable.border="1";
+    childTwo.appendChild(skillstable)
+    var tableData="";
+    for(var i=0; i<skillInfo.length; i++){
+      tableData+="<tr><td>"+skillInfo[i].title+"</td><td>"+skillInfo[i].info+"</td></tr>"
+    }
+    skillstable.innerHTML=tableData;
+}
+    function achievements(ach){
+      var skillsHeading=document.createElement("h2");
+      skillsHeading.textContent="Achievements";
+      childTwo.appendChild(skillsHeading);
+      var hr=document.createElement("hr");
+      childTwo.appendChild(hr);
+      var ul=document.createElement("ul");
+      childTwo.appendChild(ul);
+      var li="";
+    for(var i=0;i<ach.length;i++){
+    li+="<li>"+ach[i].achieveData+"</li>";
+    ul.innerHTML=li;
+  }
   }
