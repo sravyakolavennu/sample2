@@ -1,0 +1,29 @@
+{
+"profile":{
+  "name":"SRAVYA",
+  "email":"kvssravya29@gmail.com",
+  "mobile":"1234567890",
+  "image":"image.jpg",
+  "address":"pvpsit"
+},
+"carrer":{
+  "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+},
+"education":[
+{
+      "degree":"B-Tech",
+      "institute":"pvp",
+      "data":["2016-19","96%"]
+  },
+  {
+        "degree":"Intermediate",
+        "institute":"sri gayathri",
+        "data":["2014-15","96%"]
+    },
+    {
+          "degree":"SSC",
+          "institute":"vidya vikas public school",
+          "data":["2013-14","88%"]
+        }
+      ]
+    }

@@ -1,0 +1,143 @@
+.parent{
+  display: flex;
+  flex-direction: row;
+}
+.parent{
+border:2px solid blue;
+}
+
+.childone{
+width:50%;
+border:2px solid #ddd;
+padding:2%;
+margin:2%;
+border-radius:10%;
+background-color: skyblue;
+font-size: 300%;
+}
+.childTwo{
+  width:50%;
+  border: 2px solid #ddd;
+  padding:2%;
+  margin:2%;
+  border-radius:10%;
+  background-color: pink;
+  font-size: 300%;
+}
+img{
+  width: 100%;
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:50%;
+  box-shadow:6px 9px 8px pink;
+}
+
+
+@media only screen and (min-width:320px) and (max-width: 480px){
+  .parent{
+    display: flex;
+    flex-direction: row;
+  }
+  .parent{
+  border:2px solid blue;
+  }
+
+  .childone{
+  width:100%;
+  border:2px solid #ddd;
+  padding:2%;
+  margin:2%;
+  border-radius:20%;
+  background-color: violet;
+  }
+  .childtwo{
+    width:100%;
+    border: 2px solid #ddd;
+    padding:2%;
+    margin:2%;
+    border-radius:20%;
+    background-color: orange;
+  }
+  img{
+    width: 100%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:50%;
+    box-shadow:6px 9px 8px pink;
+  }
+}
+
+  @media only screen and (min-width:481px) and (max-width: 768px){
+    .parent{
+      display: flex;
+      flex-direction: row;
+    }
+    .parent{
+    border:2px solid #ddd;
+    }
+
+    .childone{
+    width:100%;
+    border:2px solid #ddd;
+    padding:2%;
+    margin:2%;
+    border-radius:20%;
+    background-color: green;
+    }
+    .childtwo{
+      width:100%;
+      border: 2px solid #ddd;
+      padding:2%;
+      margin:2%;
+      border-radius:20%;
+      border-color: 20%;
+      background-color: blue;
+    }
+    img{
+      width: 100%;
+      height: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius:50%;
+      box-shadow:6px 9px 8px pink;
+    }
+    @media only screen and (min-width:769px) and (max-width: 1024px){
+      .parent{
+        display: flex;
+        flex-direction: row;
+      }
+      .parent{
+      border:2px solid #ddd;
+      }
+
+      .childone{
+      width:100%;
+      border:2px solid #ddd;
+      padding:2%;
+      margin:2%;
+      border-radius:20%;
+      background-color: red;
+      }
+      .childtwo{
+        width:100%;
+        border: 2px solid #ddd;
+        padding:2%;
+        margin:2%;
+        border-radius:20%;
+        border-color: 20%;
+        background-color: blue;
+      }
+      img{
+        width: 100%;
+        height: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius:50%;
+        box-shadow:6px 9px 8px pink;
+      }
