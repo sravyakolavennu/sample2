@@ -13,7 +13,6 @@ padding:2%;
 margin:2%;
 border-radius:10%;
 background-color: skyblue;
-font-size: 300%;
 }
 .childTwo{
   width:50%;
@@ -22,7 +21,6 @@ font-size: 300%;
   margin:2%;
   border-radius:10%;
   background-color: pink;
-  font-size: 300%;
 }
 img{
   width: 100%;
@@ -45,7 +43,7 @@ img{
   }
 
   .childone{
-  width:100%;
+  width:50%;
   border:2px solid #ddd;
   padding:2%;
   margin:2%;
@@ -53,7 +51,7 @@ img{
   background-color: violet;
   }
   .childtwo{
-    width:100%;
+    width:50%;
     border: 2px solid #ddd;
     padding:2%;
     margin:2%;
